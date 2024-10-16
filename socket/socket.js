@@ -18,7 +18,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://settyl-crop.netlify.app/",
+    origin: "https://settyl-crop.netlify.app",
     methods: ["GET", "POST"],
   },
 });
